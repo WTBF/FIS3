@@ -1,0 +1,5 @@
+{
+  "dependencies": [
+    "github:fis-components/jquery@2.2.0"
+  ]
+}

@@ -1,0 +1,113 @@
+/*
+ *  module : 首页
+ *  author : W.TBF
+ */
+@import url('../modules/css/rest.css?__inline');
+@import url('../modules/css/tab.css?__inline');
+
+header {
+    position:relative;
+    height:1.253333rem;
+    line-height:1.253333rem;
+    color:#fff;
+    font-size:.4rem;
+    text-align:center;
+    background-color:#ffc503
+}
+header .back {
+    position:absolute;
+    top:0;
+    left:.653333rem;
+    font-size:.293333rem;
+    font-weight:700;
+    color:#fff
+}
+#top_search {
+    background-color:#e6e6e6;
+    padding:.16rem .893333rem .16rem .84rem
+}
+#top_search .form_search {
+    display:flex;
+    align-items:center;
+    height:.933333rem;
+    background-color:#fff;
+    border-radius:.533333rem
+}
+#top_search .form_search input {
+    display:inline-block;
+    flex:1;
+    padding-left:.666667rem;
+    height:.613333rem;
+    line-height:.613333rem;
+    border:none;
+    background:0 0;
+    font-size:.32rem
+}
+#top_search .form_search i.search_icon {
+    font-size:.453333rem;
+    margin-right:.48rem;
+    color:#c0bcbc
+}
+.top_filter ul {
+    display:flex;
+    align-items:center;
+    height:.96rem
+}
+.filter_close,.top_filter ul li a,.top_filter ul li a p {
+    display:inline-block
+}
+.top_filter ul li {
+    flex:1;
+    text-align:center
+}
+.top_filter ul li a {
+    font-size:.32rem;
+    color:#9d9e9e
+}
+.filter_close {
+    margin-left:.213333rem;
+    width:.213333rem;
+    height:.16rem;
+    vertical-align:.026667rem;
+    background:url(../images/filter_close.png?__inline) no-repeat;
+    background-size:100% 100%
+}
+.filter_close.active {
+    margin-left:.213333rem;
+    width:.213333rem;
+    height:.16rem;
+    vertical-align:.026667rem;
+    background:url(../images/filter_open.png?__inline) no-repeat;
+    background-size:100% 100%
+}
+.list_item>a {
+    padding:.226667rem .146667rem;
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-align:center;
+    -webkit-align-items:center;
+    -ms-flex-align:center;
+    align-items:center;
+    border-top:.026667rem solid #dadada
+}
+.list_item>a>img {
+    margin-right:.293333rem;
+    width:2.973333rem;
+    height:1.893333rem
+}
+.list_item>a>section {
+    -webkit-box-flex:1;
+    -webkit-flex:1;
+    -ms-flex:1;
+    flex:1
+}
+.list_item>a>section h2 {
+    padding-bottom:.4rem;
+    font-size:.4rem;
+    color:#3e3a39
+}
+.list_item>a>section span {
+    color:#a1a2a2
+}

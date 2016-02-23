@@ -1,0 +1,16 @@
+{
+  "name": "qy-fis",
+  "version": "2.1.0",
+  "description": "fis3简单配置",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fis",
+    "workflow",
+    "qy"
+  ],
+  "author": "W.TBF",
+  "license": "MIT"
+}
